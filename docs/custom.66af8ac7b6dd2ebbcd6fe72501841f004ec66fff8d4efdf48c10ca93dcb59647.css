@@ -236,3 +236,61 @@ table.orga td:first-child, table.contact td:first-child {
         padding: 0 20px;
     }
 }
+
+.osm-wrapper {
+        position: relative;
+        width: 560px;
+        height: 315px;
+        margin: 10px auto;
+        overflow: hidden;
+}
+
+.osm-container {
+        height: 100%;
+}
+
+.osm-info {
+        text-align: center;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        background: rgba(255, 255, 255, 0.75);
+        overflow: auto;
+}
+
+.osm-info-p {
+        padding: 3px;
+}
+
+.osm-image {
+        filter: blur(5px);
+        height: 100%;
+}
+
+.osm-button-p {
+        padding-top: 20%;
+}
+
+body.dark-mode .osm-info-p {
+        color: #242424;
+}
+
+.osm-button {
+        cursor: pointer;
+        font-size: 60px;
+        color: #000;
+        opacity: 0.6;
+}
+
+.osm-small {
+        font-size: 14px;
+        margin-left: 175px;
+        margin-top: -10px;
+        padding-bottom: 10px;
+}
+
+.osm-button:hover {
+        color: #89c261;
+        opacity: 1;
+}
